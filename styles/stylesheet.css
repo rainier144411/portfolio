@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+}
+
+h1 {
+    font-weight: bold;
+    color: darkslategray;
+}
+
+h3 {
+    font-weight: lighter;
+    font-style: italic;
+    color: darkslategray;
+}
+
+nav {
+    background-color: rgba(47,79,79,.1);
+    padding: 10px 20px;
+}
+
+nav a {
+    color: indigo;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: darkorchid;
+}
+
+article {
+    padding: 20px 30px;
+}
+
+h2 {
+    color: rgba(47,79,79,.8);
+}
+
+ul li {
+    font-size: 1.1em;
+}
+
+ul li a {
+    font-size: 0.8em;
+}
+
+li a:visited {
+    color: darkblue;
+  }
+
+ li a:hover {
+    color: blue
+}
+
+img {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 0 2px 1px rgba(47,79,79,.2)
+}
+
+footer {
+    font-size:small;
+}
+
+.about-picture {
+    border-radius: 60%;
+    box-shadow: 0 0 2px 1px rgba(47,79,79,.2)
+}
