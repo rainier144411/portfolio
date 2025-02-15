@@ -1,14 +1,20 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     margin: 1rem;
 }
 
 h1 {
+    font-family: "Barlow Condensed", Arial, sans-serif;
     font-weight: bold;
     color: darkslategray;
 }
 
+.fa-shoe-prints {
+    color: rgba(47,79,79,.5);
+}
+
 h3 {
+    font-family: Domine, serif;
     font-weight: lighter;
     font-style: italic;
     color: darkslategray;
