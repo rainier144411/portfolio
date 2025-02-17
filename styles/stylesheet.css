@@ -20,6 +20,12 @@ h3 {
     color: darkslategray;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 nav {
     background-color: rgba(47,79,79,.1);
     padding: 10px 20px;
@@ -46,6 +52,13 @@ h2 {
 
 ul li {
     font-size: 1.1em;
+    box-sizing: border-box;
+    height: 14rem;
+    width: 14rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 ul li a {
@@ -67,11 +80,22 @@ img {
     box-shadow: 0 0 2px 1px rgba(47,79,79,.2)
 }
 
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 footer {
     font-size:small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .about-picture {
     border-radius: 60%;
-    box-shadow: 0 0 2px 1px rgba(47,79,79,.2)
+    box-shadow: 0 0 2px 1px rgba(47,79,79,.2);
+    margin: 1rem;
 }
